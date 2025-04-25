@@ -15,7 +15,7 @@ curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-
 sudo install minikube-linux-amd64 /usr/local/bin/minikube
 
 # Start the cluster
-minikube start --driver=docker  # Use Docker, VirtualBox, or HyperKit
+minikube start --driver=docker
 ```
 Install Helm
 ```
